@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C2511122FA1F5A00B46553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511022FA1F5A00B46553 /* AppDelegate.swift */; };
+		40C2511322FA1F5A00B46553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511222FA1F5A00B46553 /* ViewController.swift */; };
+		40C2511622FA1F5A00B46553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511422FA1F5A00B46553 /* Main.storyboard */; };
+		40C2511922FA1F5A00B46553 /* Aflamy_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */; };
+		40C2511B22FA1F5C00B46553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511A22FA1F5C00B46553 /* Assets.xcassets */; };
+		40C2511E22FA1F5C00B46553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511C22FA1F5C00B46553 /* LaunchScreen.storyboard */; };
+		40C2512922FA1F5C00B46553 /* Aflamy_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2512822FA1F5C00B46553 /* Aflamy_AppTests.swift */; };
+		40C2513422FA1F5C00B46553 /* Aflamy_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C2512522FA1F5C00B46553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C2510522FA1F5A00B46553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C2510C22FA1F5A00B46553;
+			remoteInfo = "Aflamy App";
+		};
+		40C2513022FA1F5C00B46553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C2510522FA1F5A00B46553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C2510C22FA1F5A00B46553;
+			remoteInfo = "Aflamy App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C2510D22FA1F5A00B46553 /* Aflamy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aflamy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C2511022FA1F5A00B46553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C2511222FA1F5A00B46553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40C2511522FA1F5A00B46553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C2511822FA1F5A00B46553 /* Aflamy_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aflamy_App.xcdatamodel; sourceTree = "<group>"; };
+		40C2511A22FA1F5C00B46553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C2511D22FA1F5C00B46553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40C2511F22FA1F5C00B46553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C2512422FA1F5C00B46553 /* Aflamy AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aflamy AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C2512822FA1F5C00B46553 /* Aflamy_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aflamy_AppTests.swift; sourceTree = "<group>"; };
+		40C2512A22FA1F5C00B46553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C2512F22FA1F5C00B46553 /* Aflamy AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aflamy AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aflamy_AppUITests.swift; sourceTree = "<group>"; };
+		40C2513522FA1F5C00B46553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C2510A22FA1F5A00B46553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C2512122FA1F5C00B46553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C2512C22FA1F5C00B46553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C2510422FA1F5A00B46553 = {
+			isa = PBXGroup;
+			children = (
+				40C2510F22FA1F5A00B46553 /* Aflamy App */,
+				40C2512722FA1F5C00B46553 /* Aflamy AppTests */,
+				40C2513222FA1F5C00B46553 /* Aflamy AppUITests */,
+				40C2510E22FA1F5A00B46553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C2510E22FA1F5A00B46553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C2510D22FA1F5A00B46553 /* Aflamy App.app */,
+				40C2512422FA1F5C00B46553 /* Aflamy AppTests.xctest */,
+				40C2512F22FA1F5C00B46553 /* Aflamy AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C2510F22FA1F5A00B46553 /* Aflamy App */ = {
+			isa = PBXGroup;
+			children = (
+				40C2511022FA1F5A00B46553 /* AppDelegate.swift */,
+				40C2511222FA1F5A00B46553 /* ViewController.swift */,
+				40C2511422FA1F5A00B46553 /* Main.storyboard */,
+				40C2511A22FA1F5C00B46553 /* Assets.xcassets */,
+				40C2511C22FA1F5C00B46553 /* LaunchScreen.storyboard */,
+				40C2511F22FA1F5C00B46553 /* Info.plist */,
+				40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */,
+			);
+			path = "Aflamy App";
+			sourceTree = "<group>";
+		};
+		40C2512722FA1F5C00B46553 /* Aflamy AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C2512822FA1F5C00B46553 /* Aflamy_AppTests.swift */,
+				40C2512A22FA1F5C00B46553 /* Info.plist */,
+			);
+			path = "Aflamy AppTests";
+			sourceTree = "<group>";
+		};
+		40C2513222FA1F5C00B46553 /* Aflamy AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */,
+				40C2513522FA1F5C00B46553 /* Info.plist */,
+			);
+			path = "Aflamy AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C2510C22FA1F5A00B46553 /* Aflamy App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C2513822FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy App" */;
+			buildPhases = (
+				40C2510922FA1F5A00B46553 /* Sources */,
+				40C2510A22FA1F5A00B46553 /* Frameworks */,
+				40C2510B22FA1F5A00B46553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aflamy App";
+			productName = "Aflamy App";
+			productReference = 40C2510D22FA1F5A00B46553 /* Aflamy App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C2512322FA1F5C00B46553 /* Aflamy AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C2513B22FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy AppTests" */;
+			buildPhases = (
+				40C2512022FA1F5C00B46553 /* Sources */,
+				40C2512122FA1F5C00B46553 /* Frameworks */,
+				40C2512222FA1F5C00B46553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C2512622FA1F5C00B46553 /* PBXTargetDependency */,
+			);
+			name = "Aflamy AppTests";
+			productName = "Aflamy AppTests";
+			productReference = 40C2512422FA1F5C00B46553 /* Aflamy AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C2512E22FA1F5C00B46553 /* Aflamy AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C2513E22FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy AppUITests" */;
+			buildPhases = (
+				40C2512B22FA1F5C00B46553 /* Sources */,
+				40C2512C22FA1F5C00B46553 /* Frameworks */,
+				40C2512D22FA1F5C00B46553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C2513122FA1F5C00B46553 /* PBXTargetDependency */,
+			);
+			name = "Aflamy AppUITests";
+			productName = "Aflamy AppUITests";
+			productReference = 40C2512F22FA1F5C00B46553 /* Aflamy AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C2510522FA1F5A00B46553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ahmad Sameh";
+				TargetAttributes = {
+					40C2510C22FA1F5A00B46553 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					40C2512322FA1F5C00B46553 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 40C2510C22FA1F5A00B46553;
+					};
+					40C2512E22FA1F5C00B46553 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 40C2510C22FA1F5A00B46553;
+					};
+				};
+			};
+			buildConfigurationList = 40C2510822FA1F5A00B46553 /* Build configuration list for PBXProject "Aflamy App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C2510422FA1F5A00B46553;
+			productRefGroup = 40C2510E22FA1F5A00B46553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C2510C22FA1F5A00B46553 /* Aflamy App */,
+				40C2512322FA1F5C00B46553 /* Aflamy AppTests */,
+				40C2512E22FA1F5C00B46553 /* Aflamy AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C2510B22FA1F5A00B46553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C2511E22FA1F5C00B46553 /* LaunchScreen.storyboard in Resources */,
+				40C2511B22FA1F5C00B46553 /* Assets.xcassets in Resources */,
+				40C2511622FA1F5A00B46553 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C2512222FA1F5C00B46553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C2512D22FA1F5C00B46553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C2510922FA1F5A00B46553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C2511922FA1F5A00B46553 /* Aflamy_App.xcdatamodeld in Sources */,
+				40C2511322FA1F5A00B46553 /* ViewController.swift in Sources */,
+				40C2511122FA1F5A00B46553 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C2512022FA1F5C00B46553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C2512922FA1F5C00B46553 /* Aflamy_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C2512B22FA1F5C00B46553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C2513422FA1F5C00B46553 /* Aflamy_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C2512622FA1F5C00B46553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C2510C22FA1F5A00B46553 /* Aflamy App */;
+			targetProxy = 40C2512522FA1F5C00B46553 /* PBXContainerItemProxy */;
+		};
+		40C2513122FA1F5C00B46553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C2510C22FA1F5A00B46553 /* Aflamy App */;
+			targetProxy = 40C2513022FA1F5C00B46553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C2511422FA1F5A00B46553 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C2511522FA1F5A00B46553 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40C2511C22FA1F5C00B46553 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C2511D22FA1F5C00B46553 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C2513622FA1F5C00B46553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C2513722FA1F5C00B46553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C2513922FA1F5C00B46553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflamy App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C2513A22FA1F5C00B46553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflamy App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40C2513C22FA1F5C00B46553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflamy AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aflamy App.app/Aflamy App";
+			};
+			name = Debug;
+		};
+		40C2513D22FA1F5C00B46553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflamy AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aflamy App.app/Aflamy App";
+			};
+			name = Release;
+		};
+		40C2513F22FA1F5C00B46553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflamy AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aflamy App";
+			};
+			name = Debug;
+		};
+		40C2514022FA1F5C00B46553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflamy AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aflamy App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C2510822FA1F5A00B46553 /* Build configuration list for PBXProject "Aflamy App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C2513622FA1F5C00B46553 /* Debug */,
+				40C2513722FA1F5C00B46553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C2513822FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C2513922FA1F5C00B46553 /* Debug */,
+				40C2513A22FA1F5C00B46553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C2513B22FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C2513C22FA1F5C00B46553 /* Debug */,
+				40C2513D22FA1F5C00B46553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C2513E22FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C2513F22FA1F5C00B46553 /* Debug */,
+				40C2514022FA1F5C00B46553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40C2511822FA1F5A00B46553 /* Aflamy_App.xcdatamodel */,
+			);
+			currentVersion = 40C2511822FA1F5A00B46553 /* Aflamy_App.xcdatamodel */;
+			path = Aflamy_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 40C2510522FA1F5A00B46553 /* Project object */;
+}
