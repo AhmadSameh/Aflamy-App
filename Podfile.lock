@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.8.2)
+  - collection-view-layouts/Core (0.1.2)
+  - collection-view-layouts/FacebookLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlickrLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlipboardLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/InstagramLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/PinterestLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/Px500Layout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/TagsLayout (0.1.2):
+    - collection-view-layouts/Core
+  - Cosmos (19.0.3)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - SwiftyJSON (5.0.0)
+  - "UIImageView+Extension (0.2.6)"
+
+DEPENDENCIES:
+  - Alamofire
+  - collection-view-layouts/Core
+  - collection-view-layouts/FacebookLayout
+  - collection-view-layouts/FlickrLayout
+  - collection-view-layouts/FlipboardLayout
+  - collection-view-layouts/InstagramLayout
+  - collection-view-layouts/PinterestLayout
+  - collection-view-layouts/Px500Layout
+  - collection-view-layouts/TagsLayout
+  - Cosmos
+  - SDWebImage
+  - SwiftyJSON
+  - "UIImageView+Extension"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - collection-view-layouts
+    - Cosmos
+    - SDWebImage
+    - SwiftyJSON
+    - "UIImageView+Extension"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  collection-view-layouts: f3da16bf3211ecb885bb3e45160c2267edf5b65e
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  "UIImageView+Extension": bc26c60a9c8cd6fb515ae1e37377a6f0988e76d8
+
+PODFILE CHECKSUM: ded7cf624453536a31fff868883b59b6f5f77378
+
+COCOAPODS: 1.7.5

@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0B03BAAD32D57F54CBE894 /* Pods_Aflamy_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F41F82EE4BD3C4A2B5CAAA5 /* Pods_Aflamy_App.framework */; };
+		406A714E22FB5A64001738DA /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A714D22FB5A64001738DA /* MovieInfoViewController.swift */; };
 		40C2511122FA1F5A00B46553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511022FA1F5A00B46553 /* AppDelegate.swift */; };
-		40C2511322FA1F5A00B46553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511222FA1F5A00B46553 /* ViewController.swift */; };
 		40C2511622FA1F5A00B46553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511422FA1F5A00B46553 /* Main.storyboard */; };
 		40C2511922FA1F5A00B46553 /* Aflamy_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */; };
 		40C2511B22FA1F5C00B46553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511A22FA1F5C00B46553 /* Assets.xcassets */; };
 		40C2511E22FA1F5C00B46553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511C22FA1F5C00B46553 /* LaunchScreen.storyboard */; };
 		40C2512922FA1F5C00B46553 /* Aflamy_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2512822FA1F5C00B46553 /* Aflamy_AppTests.swift */; };
 		40C2513422FA1F5C00B46553 /* Aflamy_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */; };
+		40C2514222FA305500B46553 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C2514122FA305500B46553 /* loading.png */; };
+		40C2514622FA3B4D00B46553 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2514522FA3B4D00B46553 /* MyViewController.swift */; };
+		40C2514A22FA3CC600B46553 /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2514922FA3CC600B46553 /* MyCustomCollectionViewCell.swift */; };
+		40CA22EC22FBB7280066F565 /* NetworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA22EB22FBB7280066F565 /* NetworkClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A077C7A77F3D6FD5D8EB473 /* Pods-Aflamy App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflamy App.debug.xcconfig"; path = "Target Support Files/Pods-Aflamy App/Pods-Aflamy App.debug.xcconfig"; sourceTree = "<group>"; };
+		406A714D22FB5A64001738DA /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
 		40C2510D22FA1F5A00B46553 /* Aflamy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aflamy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C2511022FA1F5A00B46553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40C2511222FA1F5A00B46553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40C2511522FA1F5A00B46553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40C2511822FA1F5A00B46553 /* Aflamy_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aflamy_App.xcdatamodel; sourceTree = "<group>"; };
 		40C2511A22FA1F5C00B46553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,13 @@
 		40C2512F22FA1F5C00B46553 /* Aflamy AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aflamy AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aflamy_AppUITests.swift; sourceTree = "<group>"; };
 		40C2513522FA1F5C00B46553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C2514122FA305500B46553 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = ../../../../loading.png; sourceTree = "<group>"; };
+		40C2514522FA3B4D00B46553 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		40C2514922FA3CC600B46553 /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		40CA22E822FBB07C0066F565 /* logoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIcon.png; sourceTree = "<group>"; };
+		40CA22EB22FBB7280066F565 /* NetworkClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClass.swift; sourceTree = "<group>"; };
+		7F41F82EE4BD3C4A2B5CAAA5 /* Pods_Aflamy_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aflamy_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE69E5CFE86ABF02825EA38 /* Pods-Aflamy App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflamy App.release.xcconfig"; path = "Target Support Files/Pods-Aflamy App/Pods-Aflamy App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0B03BAAD32D57F54CBE894 /* Pods_Aflamy_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D604020EAA28EBDF1F3F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F41F82EE4BD3C4A2B5CAAA5 /* Pods_Aflamy_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		40C2510422FA1F5A00B46553 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				40C2512722FA1F5C00B46553 /* Aflamy AppTests */,
 				40C2513222FA1F5C00B46553 /* Aflamy AppUITests */,
 				40C2510E22FA1F5A00B46553 /* Products */,
+				85E83B073B835925B2BC7757 /* Pods */,
+				07D604020EAA28EBDF1F3F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +123,18 @@
 		40C2510F22FA1F5A00B46553 /* Aflamy App */ = {
 			isa = PBXGroup;
 			children = (
+				40CA22EB22FBB7280066F565 /* NetworkClass.swift */,
+				40C2514122FA305500B46553 /* loading.png */,
+				40CA22E822FBB07C0066F565 /* logoIcon.png */,
 				40C2511022FA1F5A00B46553 /* AppDelegate.swift */,
-				40C2511222FA1F5A00B46553 /* ViewController.swift */,
 				40C2511422FA1F5A00B46553 /* Main.storyboard */,
 				40C2511A22FA1F5C00B46553 /* Assets.xcassets */,
 				40C2511C22FA1F5C00B46553 /* LaunchScreen.storyboard */,
 				40C2511F22FA1F5C00B46553 /* Info.plist */,
 				40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */,
+				40C2514522FA3B4D00B46553 /* MyViewController.swift */,
+				40C2514922FA3CC600B46553 /* MyCustomCollectionViewCell.swift */,
+				406A714D22FB5A64001738DA /* MovieInfoViewController.swift */,
 			);
 			path = "Aflamy App";
 			sourceTree = "<group>";
@@ -128,6 +157,15 @@
 			path = "Aflamy AppUITests";
 			sourceTree = "<group>";
 		};
+		85E83B073B835925B2BC7757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A077C7A77F3D6FD5D8EB473 /* Pods-Aflamy App.debug.xcconfig */,
+				ABE69E5CFE86ABF02825EA38 /* Pods-Aflamy App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40C2513822FA1F5C00B46553 /* Build configuration list for PBXNativeTarget "Aflamy App" */;
 			buildPhases = (
+				780C2B60C7D329D4127C51EB /* [CP] Check Pods Manifest.lock */,
 				40C2510922FA1F5A00B46553 /* Sources */,
 				40C2510A22FA1F5A00B46553 /* Frameworks */,
 				40C2510B22FA1F5A00B46553 /* Resources */,
+				F455968791BF84B6CCB6A703 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C2514222FA305500B46553 /* loading.png in Resources */,
 				40C2511E22FA1F5C00B46553 /* LaunchScreen.storyboard in Resources */,
 				40C2511B22FA1F5C00B46553 /* Assets.xcassets in Resources */,
 				40C2511622FA1F5A00B46553 /* Main.storyboard in Resources */,
@@ -254,14 +295,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		780C2B60C7D329D4127C51EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aflamy App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F455968791BF84B6CCB6A703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aflamy App/Pods-Aflamy App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aflamy App/Pods-Aflamy App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aflamy App/Pods-Aflamy App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40C2510922FA1F5A00B46553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				40C2511922FA1F5A00B46553 /* Aflamy_App.xcdatamodeld in Sources */,
-				40C2511322FA1F5A00B46553 /* ViewController.swift in Sources */,
+				40C2514622FA3B4D00B46553 /* MyViewController.swift in Sources */,
+				406A714E22FB5A64001738DA /* MovieInfoViewController.swift in Sources */,
 				40C2511122FA1F5A00B46553 /* AppDelegate.swift in Sources */,
+				40C2514A22FA3CC600B46553 /* MyCustomCollectionViewCell.swift in Sources */,
+				40CA22EC22FBB7280066F565 /* NetworkClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,9 +520,11 @@
 		};
 		40C2513922FA1F5C00B46553 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A077C7A77F3D6FD5D8EB473 /* Pods-Aflamy App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RJ9A44Y69;
 				INFOPLIST_FILE = "Aflamy App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +539,11 @@
 		};
 		40C2513A22FA1F5C00B46553 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE69E5CFE86ABF02825EA38 /* Pods-Aflamy App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RJ9A44Y69;
 				INFOPLIST_FILE = "Aflamy App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
