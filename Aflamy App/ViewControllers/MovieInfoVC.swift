@@ -10,11 +10,9 @@ import UIKit
 import SDWebImage
 import Cosmos
 
-class MovieInfoViewController: UIViewController {
+class MovieInfoVC: UIViewController {
     
-    
-    
-    
+
     @IBOutlet weak var movieReleaseYearOutlet: UILabel!
     @IBOutlet weak var movieTitleOutlet: UILabel!
     @IBOutlet weak var movieImageView: UIImageView!
@@ -23,29 +21,28 @@ class MovieInfoViewController: UIViewController {
     var movieReleaseDateLabel : Int64 = 0
     var movieImageName : String = ""
     var movieGenreArr : [String] = [""]
+    var film : Film?
 
     @IBOutlet weak var movieGenreOutlet: UILabel!
     @IBOutlet weak var cosmos: CosmosView!
     
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        movieTitleOutlet.text = movieTitleLabel
-
-        movieReleaseYearOutlet.text="\(movieReleaseDateLabel)"
-        movieImageView.sd_setImage(with: URL(string: movieImageName), placeholderImage: UIImage(named: "loading.png"))
-
-        movieGenreOutlet.text = movieGenreArr.joined(separator: " , ")
-
-        
-        cosmos.rating = (Double(movieRatingLabel)/2)
-
-        
-        
+        movieTitleOutlet.text = film?.title
+        movieReleaseYearOutlet.text="\(String(describing: film?.releaseYear))"
+        movieImageView.sd_setImage(with: URL(string: film?.image ?? "nil"), completed: nil)
+        movieGenreOutlet.text = film?.genre.joined(separator: " , ")
+        cosmos.rating = (Double(film?.rating ?? 0.0)/2)
+ 
     }
 
 
 }
+
 extension UIView {
     
     func dropShadow() {

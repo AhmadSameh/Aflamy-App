@@ -13,9 +13,48 @@ class NetworkManager {
     
     //shared instance
     static let shared = NetworkManager()
+    let myUrl         = URL(string: "https://api.androidhive.info/json/movies.json")
     
+
     let reachabilityManager = Alamofire.NetworkReachabilityManager(host: "www.google.com")
     var networkFlag : Int = 0
+    
+    func getMoviesList(completed : @escaping (Swift.Result<[Film] , MyError>) -> Void){
+        
+        guard let url = myUrl else {
+            completed(.failure(.invalidURL))
+            return}
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard error == nil else {
+                completed(.failure(.invalidResponse))
+                return
+            }
+            
+            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else{
+                completed(.failure(.invalidResponse))
+                return
+            }
+            
+            guard let data = data else {
+                completed(.failure(.invalidData))
+                return
+            }
+            
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .useDefaultKeys
+            
+            do{
+                let films = try decoder.decode([Film].self, from: data)
+                completed(.success(films))
+            }catch{
+                print("decoding error")
+            }
+
+        }
+        task.resume()
+    }
+    
+
     func startNetworkReachabilityObserver() -> Int {
         
         reachabilityManager?.listener = { status in

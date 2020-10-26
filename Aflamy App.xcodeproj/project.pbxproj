@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0D0B03BAAD32D57F54CBE894 /* Pods_Aflamy_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F41F82EE4BD3C4A2B5CAAA5 /* Pods_Aflamy_App.framework */; };
-		406A714E22FB5A64001738DA /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A714D22FB5A64001738DA /* MovieInfoViewController.swift */; };
+		40402F412546E14E00F19C5C /* AflamyTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40402F3E2546E14E00F19C5C /* AflamyTitleLabel.swift */; };
+		40402F422546E14E00F19C5C /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40402F3F2546E14E00F19C5C /* AvatarImageView.swift */; };
+		40402F452546E30300F19C5C /* CutsomConntainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40402F442546E30300F19C5C /* CutsomConntainerView.swift */; };
+		406A714E22FB5A64001738DA /* MovieInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A714D22FB5A64001738DA /* MovieInfoVC.swift */; };
+		4084F5D22541CFEC00288A6C /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084F5D12541CFEC00288A6C /* Film.swift */; };
+		4084F5D52541E65F00288A6C /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084F5D42541E65F00288A6C /* MyError.swift */; };
+		409A82742542199C00092F9F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A82732542199C00092F9F /* CoreDataManager.swift */; };
 		40C2511122FA1F5A00B46553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511022FA1F5A00B46553 /* AppDelegate.swift */; };
 		40C2511622FA1F5A00B46553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2511422FA1F5A00B46553 /* Main.storyboard */; };
 		40C2511922FA1F5A00B46553 /* Aflamy_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */; };
@@ -17,9 +23,9 @@
 		40C2512922FA1F5C00B46553 /* Aflamy_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2512822FA1F5C00B46553 /* Aflamy_AppTests.swift */; };
 		40C2513422FA1F5C00B46553 /* Aflamy_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */; };
 		40C2514222FA305500B46553 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C2514122FA305500B46553 /* loading.png */; };
-		40C2514622FA3B4D00B46553 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2514522FA3B4D00B46553 /* MyViewController.swift */; };
+		40C2514622FA3B4D00B46553 /* MoviesCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2514522FA3B4D00B46553 /* MoviesCollectionVC.swift */; };
 		40C2514A22FA3CC600B46553 /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2514922FA3CC600B46553 /* MyCustomCollectionViewCell.swift */; };
-		40CA22EC22FBB7280066F565 /* NetworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA22EB22FBB7280066F565 /* NetworkClass.swift */; };
+		40CA22EC22FBB7280066F565 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA22EB22FBB7280066F565 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +47,13 @@
 
 /* Begin PBXFileReference section */
 		3A077C7A77F3D6FD5D8EB473 /* Pods-Aflamy App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflamy App.debug.xcconfig"; path = "Target Support Files/Pods-Aflamy App/Pods-Aflamy App.debug.xcconfig"; sourceTree = "<group>"; };
-		406A714D22FB5A64001738DA /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
+		40402F3E2546E14E00F19C5C /* AflamyTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AflamyTitleLabel.swift; sourceTree = "<group>"; };
+		40402F3F2546E14E00F19C5C /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		40402F442546E30300F19C5C /* CutsomConntainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutsomConntainerView.swift; sourceTree = "<group>"; };
+		406A714D22FB5A64001738DA /* MovieInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoVC.swift; sourceTree = "<group>"; };
+		4084F5D12541CFEC00288A6C /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		4084F5D42541E65F00288A6C /* MyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyError.swift; sourceTree = "<group>"; };
+		409A82732542199C00092F9F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		40C2510D22FA1F5A00B46553 /* Aflamy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aflamy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C2511022FA1F5A00B46553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C2511522FA1F5A00B46553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,10 +68,10 @@
 		40C2513322FA1F5C00B46553 /* Aflamy_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aflamy_AppUITests.swift; sourceTree = "<group>"; };
 		40C2513522FA1F5C00B46553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40C2514122FA305500B46553 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = ../../../../loading.png; sourceTree = "<group>"; };
-		40C2514522FA3B4D00B46553 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		40C2514522FA3B4D00B46553 /* MoviesCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionVC.swift; sourceTree = "<group>"; };
 		40C2514922FA3CC600B46553 /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		40CA22E822FBB07C0066F565 /* logoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIcon.png; sourceTree = "<group>"; };
-		40CA22EB22FBB7280066F565 /* NetworkClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClass.swift; sourceTree = "<group>"; };
+		40CA22EB22FBB7280066F565 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7F41F82EE4BD3C4A2B5CAAA5 /* Pods_Aflamy_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aflamy_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE69E5CFE86ABF02825EA38 /* Pods-Aflamy App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflamy App.release.xcconfig"; path = "Target Support Files/Pods-Aflamy App/Pods-Aflamy App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +110,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		40402F3C2546DFD800F19C5C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				40C2514522FA3B4D00B46553 /* MoviesCollectionVC.swift */,
+				406A714D22FB5A64001738DA /* MovieInfoVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		40402F3D2546E13F00F19C5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40402F3F2546E14E00F19C5C /* AvatarImageView.swift */,
+				40402F3E2546E14E00F19C5C /* AflamyTitleLabel.swift */,
+				40402F442546E30300F19C5C /* CutsomConntainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4084F5D02541CFDD00288A6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4084F5D12541CFEC00288A6C /* Film.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4084F5D32541E64700288A6C /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				4084F5D42541E65F00288A6C /* MyError.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
 		40C2510422FA1F5A00B46553 = {
 			isa = PBXGroup;
 			children = (
@@ -123,18 +170,20 @@
 		40C2510F22FA1F5A00B46553 /* Aflamy App */ = {
 			isa = PBXGroup;
 			children = (
-				40CA22EB22FBB7280066F565 /* NetworkClass.swift */,
-				40C2514122FA305500B46553 /* loading.png */,
-				40CA22E822FBB07C0066F565 /* logoIcon.png */,
+				40402F3D2546E13F00F19C5C /* Views */,
+				40402F3C2546DFD800F19C5C /* ViewControllers */,
+				4084F5D32541E64700288A6C /* Utilites */,
+				4084F5D02541CFDD00288A6C /* Model */,
+				40F8D46B2541CD1600C6F91A /* Managers */,
 				40C2511022FA1F5A00B46553 /* AppDelegate.swift */,
 				40C2511422FA1F5A00B46553 /* Main.storyboard */,
 				40C2511A22FA1F5C00B46553 /* Assets.xcassets */,
+				40C2514122FA305500B46553 /* loading.png */,
+				40CA22E822FBB07C0066F565 /* logoIcon.png */,
 				40C2511C22FA1F5C00B46553 /* LaunchScreen.storyboard */,
 				40C2511F22FA1F5C00B46553 /* Info.plist */,
 				40C2511722FA1F5A00B46553 /* Aflamy_App.xcdatamodeld */,
-				40C2514522FA3B4D00B46553 /* MyViewController.swift */,
 				40C2514922FA3CC600B46553 /* MyCustomCollectionViewCell.swift */,
-				406A714D22FB5A64001738DA /* MovieInfoViewController.swift */,
 			);
 			path = "Aflamy App";
 			sourceTree = "<group>";
@@ -155,6 +204,15 @@
 				40C2513522FA1F5C00B46553 /* Info.plist */,
 			);
 			path = "Aflamy AppUITests";
+			sourceTree = "<group>";
+		};
+		40F8D46B2541CD1600C6F91A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				40CA22EB22FBB7280066F565 /* NetworkManager.swift */,
+				409A82732542199C00092F9F /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		85E83B073B835925B2BC7757 /* Pods */ = {
@@ -236,13 +294,16 @@
 				TargetAttributes = {
 					40C2510C22FA1F5A00B46553 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1160;
 					};
 					40C2512322FA1F5C00B46553 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1160;
 						TestTargetID = 40C2510C22FA1F5A00B46553;
 					};
 					40C2512E22FA1F5C00B46553 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1160;
 						TestTargetID = 40C2510C22FA1F5A00B46553;
 					};
 				};
@@ -342,12 +403,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40402F452546E30300F19C5C /* CutsomConntainerView.swift in Sources */,
+				4084F5D52541E65F00288A6C /* MyError.swift in Sources */,
+				4084F5D22541CFEC00288A6C /* Film.swift in Sources */,
 				40C2511922FA1F5A00B46553 /* Aflamy_App.xcdatamodeld in Sources */,
-				40C2514622FA3B4D00B46553 /* MyViewController.swift in Sources */,
-				406A714E22FB5A64001738DA /* MovieInfoViewController.swift in Sources */,
+				40402F422546E14E00F19C5C /* AvatarImageView.swift in Sources */,
+				40C2514622FA3B4D00B46553 /* MoviesCollectionVC.swift in Sources */,
+				406A714E22FB5A64001738DA /* MovieInfoVC.swift in Sources */,
 				40C2511122FA1F5A00B46553 /* AppDelegate.swift in Sources */,
+				409A82742542199C00092F9F /* CoreDataManager.swift in Sources */,
+				40402F412546E14E00F19C5C /* AflamyTitleLabel.swift in Sources */,
 				40C2514A22FA3CC600B46553 /* MyCustomCollectionViewCell.swift in Sources */,
-				40CA22EC22FBB7280066F565 /* NetworkClass.swift in Sources */,
+				40CA22EC22FBB7280066F565 /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -551,7 +618,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -570,7 +637,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aflamy App.app/Aflamy App";
 			};
@@ -590,7 +657,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aflamy App.app/Aflamy App";
 			};
@@ -609,7 +676,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Aflamy App";
 			};
@@ -628,7 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmadsamehh.Aflamy-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Aflamy App";
 			};

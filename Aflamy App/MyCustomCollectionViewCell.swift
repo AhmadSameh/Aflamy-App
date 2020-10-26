@@ -11,11 +11,16 @@ import UIKit
 class MyCustomCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var movieNameLabel: UILabel!
-    @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var movieCellImageView: UIImageView!
 
     func setContent(image : UIImage , movieName : String){
-        
         movieNameLabel.text = movieName
-        myImageView.image = image
+        movieCellImageView.image = image
     }
+    
+    func setContenst(film : Film){
+        movieNameLabel.text = film.title
+        //movieCellImageView.image = film.image
+    }
+    
 }
